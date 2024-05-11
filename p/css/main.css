@@ -1,0 +1,29 @@
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 380px;
+  }
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  p {
+    margin: 0;
+  }
+}
+
+.profile-pic {
+  max-width: 200px;
+  padding: 2px;
+  margin-right: 5px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  img {
+    width: 100%;
+  }
+}
